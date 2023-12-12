@@ -15,10 +15,10 @@ var sql = require("mssql");
 
 // config for your database
 var config = {
-    user: 'FlxAdmin',
-    password: 'FlxAdmin',
-    server: 'CHEMSODS01',
-    database: 'Apriso_2021',
+    user: 'root',
+    password: 'ganapa',
+    server: 'localhost',
+    database: 'scanData',
     trustServerCertificate: true
 };
 sql.connect(config, function (err) {
